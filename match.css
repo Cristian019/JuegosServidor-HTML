@@ -41,6 +41,7 @@
   margin-left: var(--dl-space-space-halfunit);
 }
 .match-button {
+  cursor: pointer;
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
   border-radius: var(--dl-radius-radius-radius8);

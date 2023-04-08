@@ -18,7 +18,7 @@
   align-items: center;
   border-color: #00037b;
   border-width: 1px;
-  border-radius: 20px;
+  border-radius: 24px;
   flex-direction: column;
   justify-content: center;
   background-color: rgba(237, 239, 255, 0.51);
@@ -31,7 +31,7 @@
   cursor: pointer;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  border-radius: 16px;
+  border-radius: 24px;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -40,7 +40,7 @@
   cursor: pointer;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  border-radius: 16px;
+  border-radius: 24px;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
