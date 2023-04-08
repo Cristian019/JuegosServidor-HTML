@@ -1,0 +1,47 @@
+.match-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra-1500w.jpg");
+}
+.match-container1 {
+  width: 545px;
+  height: 276px;
+  display: flex;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(237, 239, 255, 0.51);
+}
+.match-text {
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+}
+.match-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.match-text1 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-unit);
+}
+.match-text2 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.match-button {
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  border-radius: var(--dl-radius-radius-radius8);
+}
