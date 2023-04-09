@@ -48,7 +48,7 @@
   justify-content: flex-start;
   background-color: rgba(247, 248, 255, 0.68);
 }
-.lobby-text01 {
+.lobby-text1 {
   align-self: center;
   margin-top: var(--dl-space-space-unit);
 }
@@ -100,15 +100,19 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.lobby-text05 {
+.lobby-text2 {
   margin-top: var(--dl-space-space-unit);
   text-align: center;
 }
 .lobby-ul1 {
   width: 269px;
-  height: 490px;
+  height: 415px;
   margin-top: 1em;
   background-color: rgba(246, 246, 255, 0.8);
+}
+.lobby-text3 {
+  font-size: 19px;
+  text-align: center;
 }
 .lobby-button1 {
   cursor: pointer;

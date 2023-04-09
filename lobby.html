@@ -44,16 +44,13 @@
           <h1 class="lobby-text">LOBBY</h1>
           <div class="lobby-container2">
             <div class="lobby-container3">
-              <h2 class="lobby-text01">Sala de chat</h2>
-              <ul id="mensajes" class="lobby-ul list">
-                <li class="list-item"><span>Text</span></li>
-                <li class="list-item"><span>Text</span></li>
-                <li class="list-item"><span>Text</span></li>
-              </ul>
-              <form class="lobby-form">
+              <h2 class="lobby-text1">Sala de chat</h2>
+              <ul id="mensajes" class="lobby-ul list"></ul>
+              <form id="lobby-form" class="lobby-form">
                 <input
                   type="text"
                   placeholder="Mensaje"
+                  id="input"
                   class="lobby-textinput input"
                 />
                 <button type="submit" class="lobby-button button">
@@ -63,18 +60,20 @@
             </div>
             <div class="lobby-container4">
               <div class="lobby-container5">
-                <h2 class="lobby-text05">Usuarios Conectados</h2>
-                <ul class="lobby-ul1 list">
-                  <li class="list-item"><span>Text</span></li>
-                  <li class="list-item"><span>Text</span></li>
-                  <li class="list-item"><span>Text</span></li>
-                  <li class="list-item"><span>Text</span></li>
-                </ul>
+                <h2 class="lobby-text2">Usuarios Conectados</h2>
+                <ul id="usuariosConectados" class="lobby-ul1 list"></ul>
+                <b id="SearchingMatch" class="lobby-text3">Buscando Partida</b>
               </div>
-              <button type="button" class="lobby-button1 button">
+              <button
+                type="button"
+                id="matchmaking"
+                class="lobby-button1 button"
+              >
                 Buscar Partida
               </button>
-              <button type="button" class="lobby-button2 button">Salir</button>
+              <button type="button" id="exit" class="lobby-button2 button">
+                Salir
+              </button>
             </div>
           </div>
         </div>
