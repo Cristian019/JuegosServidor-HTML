@@ -111,6 +111,7 @@
   background-color: rgba(246, 246, 255, 0.8);
 }
 .lobby-text3 {
+  display: none;
   font-size: 19px;
   text-align: center;
 }
