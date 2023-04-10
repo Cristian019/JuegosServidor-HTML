@@ -21,24 +21,8 @@
 }
 .match-text {
   align-self: center;
-  margin-top: var(--dl-space-space-twounits);
-}
-.match-container2 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.match-text1 {
-  font-size: 20px;
-  margin-left: var(--dl-space-space-unit);
-}
-.match-text2 {
-  font-size: 20px;
-  margin-left: var(--dl-space-space-halfunit);
+  margin-top: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .match-button {
   cursor: pointer;
