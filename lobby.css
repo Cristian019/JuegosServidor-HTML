@@ -14,7 +14,7 @@
   height: 711px;
   display: flex;
   align-self: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -162,12 +162,10 @@
   align-items: center;
   flex-direction: column;
 }
-.lobby-heading {
+.lobby-text5 {
   color: var(--dl-color-gray-900);
-  height: 85px;
-  font-size: 3em;
-  align-self: center;
-  text-transform: uppercase;
+  font-size: 48px;
+  padding-bottom: var(--dl-space-space-twounits);
 }
 .lobby-container8 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
