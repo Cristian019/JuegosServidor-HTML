@@ -12,7 +12,7 @@
 .lobby-container1 {
   width: 1137px;
   height: 711px;
-  display: flex;
+  display: none;
   align-self: center;
   align-items: center;
   flex-direction: column;
@@ -133,7 +133,6 @@
   right: 0px;
   width: 545px;
   height: 276px;
-  margin: auto;
   display: none;
   position: absolute;
   align-items: flex-start;
@@ -157,11 +156,10 @@
   flex: 0 0 auto;
   left: 0px;
   right: 0px;
-  margin: auto;
-  display: none;
+  display: flex;
   position: absolute;
   align-self: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .lobby-heading {
