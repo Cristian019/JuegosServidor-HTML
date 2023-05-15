@@ -40,11 +40,11 @@
       <link href="./lobby.css" rel="stylesheet" />
 
       <div class="lobby-container">
-        <div class="lobby-container1">
+        <div id="ContLobby" class="lobby-container1">
           <h1 class="lobby-text">LOBBY</h1>
           <div class="lobby-container2">
             <div class="lobby-container3">
-              <h2 class="lobby-text1">Sala de chat</h2>
+              <h2 class="lobby-text01">Sala de chat</h2>
               <ul id="mensajes" class="lobby-ul list"></ul>
               <form id="lobby-form" class="lobby-form">
                 <input
@@ -60,9 +60,9 @@
             </div>
             <div class="lobby-container4">
               <div class="lobby-container5">
-                <h2 class="lobby-text2">Usuarios Conectados</h2>
+                <h2 class="lobby-text02">Usuarios Conectados</h2>
                 <ul id="usuariosConectados" class="lobby-ul1 list"></ul>
-                <b id="SearchingMatch" class="lobby-text3">Buscando Partida</b>
+                <b id="SearchingMatch" class="lobby-text03">Buscando Partida</b>
               </div>
               <button
                 id="matchmaking"
@@ -76,6 +76,26 @@
               </button>
             </div>
           </div>
+        </div>
+        <div id="ContMatch" class="lobby-container6">
+          <h1 class="lobby-text04">Emparejamiento</h1>
+          <button id="exitMatch" type="button" class="lobby-button3 button">
+            Salir
+          </button>
+        </div>
+        <div id="ContGame" class="lobby-container7">
+          <h1 class="lobby-heading">
+            <span>GAME</span>
+            <br />
+            <br />
+          </h1>
+          <div id="Canvas" class="lobby-container8"></div>
+          <button class="lobby-button4 button">
+            <span>
+              <span>SALIR</span>
+              <br />
+            </span>
+          </button>
         </div>
       </div>
     </div>
