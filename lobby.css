@@ -12,7 +12,7 @@
 .lobby-container1 {
   width: 1137px;
   height: 711px;
-  display: flex;
+  display: none;
   align-self: center;
   align-items: center;
   flex-direction: column;
@@ -48,7 +48,7 @@
   justify-content: flex-start;
   background-color: rgba(247, 248, 255, 0.68);
 }
-.lobby-text01 {
+.lobby-text1 {
   align-self: center;
   margin-top: var(--dl-space-space-unit);
 }
@@ -100,7 +100,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.lobby-text02 {
+.lobby-text2 {
   margin-top: var(--dl-space-space-unit);
   text-align: center;
 }
@@ -110,7 +110,7 @@
   margin-top: 1em;
   background-color: rgba(246, 246, 255, 0.8);
 }
-.lobby-text03 {
+.lobby-text3 {
   display: none;
   font-size: 19px;
   text-align: center;
@@ -140,7 +140,7 @@
   justify-content: flex-start;
   background-color: rgba(237, 239, 255, 0.51);
 }
-.lobby-text04 {
+.lobby-text4 {
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-halfunit);
@@ -156,7 +156,7 @@
   flex: 0 0 auto;
   left: 0px;
   right: 0px;
-  display: none;
+  display: flex;
   position: absolute;
   align-self: center;
   align-items: center;
@@ -179,6 +179,5 @@
   background-color: #D9D9D9;
 }
 .lobby-button4 {
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
 }
