@@ -40,11 +40,11 @@
       <link href="./lobby.css" rel="stylesheet" />
 
       <div class="lobby-container">
-        <div id="ContLobby" class="lobby-container1">
+        <div id="ContLobby" class="lobby-container01">
           <h1 class="lobby-text">LOBBY</h1>
-          <div class="lobby-container2">
-            <div class="lobby-container3">
-              <h2 class="lobby-text1">Sala de chat</h2>
+          <div class="lobby-container02">
+            <div class="lobby-container03">
+              <h2 class="lobby-text01">Sala de chat</h2>
               <ul id="mensajes" class="lobby-ul list"></ul>
               <form id="lobby-form" class="lobby-form">
                 <input
@@ -58,11 +58,11 @@
                 </button>
               </form>
             </div>
-            <div class="lobby-container4">
-              <div class="lobby-container5">
-                <h2 class="lobby-text2">Usuarios Conectados</h2>
+            <div class="lobby-container04">
+              <div class="lobby-container05">
+                <h2 class="lobby-text02">Usuarios Conectados</h2>
                 <ul id="usuariosConectados" class="lobby-ul1 list"></ul>
-                <b id="SearchingMatch" class="lobby-text3">Buscando Partida</b>
+                <b id="SearchingMatch" class="lobby-text03">Buscando Partida</b>
               </div>
               <button
                 id="matchmaking"
@@ -72,7 +72,7 @@
                 Buscar Partida
               </button>
               <button
-                id="cancelarPartida"
+                id="cancelSearchMatch"
                 type="button"
                 class="lobby-button2 button"
               >
@@ -84,10 +84,23 @@
             </div>
           </div>
         </div>
-        <div id="ContGame" class="lobby-container6">
-          <h1 class="lobby-text4">GAME</h1>
-          <div id="ContCanvas" class="lobby-container7"></div>
-          <button type="button" class="lobby-button4 button">SALIR</button>
+        <div id="ContGame" class="lobby-container06">
+          <h1 class="lobby-text04">GAME</h1>
+          <div class="lobby-container07">
+            <div class="lobby-container08">
+              <h1 id="Usuario1" class="lobby-text05">Text</h1>
+              <h2 id="Puntaje1" class="lobby-text06">Text</h2>
+            </div>
+            <h1 id="Ganador" class="lobby-text07">Heading</h1>
+            <div class="lobby-container09">
+              <h1 id="Usuario2" class="lobby-text08">Text</h1>
+              <h2 id="Puntaje2" class="lobby-text09">Text</h2>
+            </div>
+          </div>
+          <div id="ContCanvas" class="lobby-container10"></div>
+          <button id="exitGame" type="button" class="lobby-button4 button">
+            SALIR
+          </button>
         </div>
       </div>
     </div>
